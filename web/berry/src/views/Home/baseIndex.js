@@ -1,6 +1,10 @@
 import { Box, Typography, Button, Container, Stack } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import { GitHub } from '@mui/icons-material';
+import Home from '@mui/icons-material/Home';
+import Settings from '@mui/icons-material/Settings';
+import Favorite from '@mui/icons-material/Favorite';
+
 
 const BaseIndex = () => (
   <Box
@@ -19,9 +23,9 @@ const BaseIndex = () => (
               One API
             </Typography>
             <Typography variant="h4" sx={{ fontSize: '1.5rem', color: '#fff', lineHeight: 1.5 }}>
-              All in one 的 OpenAI 接口 <br />
-              整合各种 API 访问方式 <br />
-              一键部署，开箱即用
+              由 不会玩电路的红石 使用one-api搭建的API网站 <br />
+              支持OpenAI以及Google Gemini的部分模型 <br />
+              支持的模型列表请查看 关于 页面
             </Typography>
             <Button
               variant="contained"
