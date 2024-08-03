@@ -28,13 +28,13 @@ const BaseIndex = () => (
               支持的模型列表请查看 关于 页面
             </Typography>
             <Button
-              variant="contained"
-              startIcon={<GitHub />}
-              href="https://github.com/songquanpeng/one-api"
+              variant="text"
+              startIcon={<Language />}
+              href="https://home.hongshi.us.kg"
               target="_blank"
-              sx={{ backgroundColor: '#24292e', color: '#fff', width: 'fit-content', boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)' }}
+              sx={{ color: '#fff', width: 'fit-content' }}
             >
-              GitHub
+              我的主页
             </Button>
           </Stack>
         </Grid>
