@@ -1,9 +1,8 @@
 import { Box, Typography, Button, Container, Stack } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import { GitHub } from '@mui/icons-material';
-import Home from '@mui/icons-material/Home';
-import Settings from '@mui/icons-material/Settings';
-import Favorite from '@mui/icons-material/Favorite';
+import {Language} from '@mui/icons-material';
+
 
 
 const BaseIndex = () => (
@@ -28,11 +27,11 @@ const BaseIndex = () => (
               支持的模型列表请查看 关于 页面
             </Typography>
             <Button
-              variant="text"
+              variant="contained"
               startIcon={<Language />}
               href="https://home.hongshi.us.kg"
               target="_blank"
-              sx={{ color: '#fff', width: 'fit-content' }}
+              sx={{ backgroundColor: '#24292e', color: '#fff', width: 'fit-content', boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)' }}
             >
               我的主页
             </Button>
