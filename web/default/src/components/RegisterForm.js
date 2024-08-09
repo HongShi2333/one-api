@@ -182,7 +182,7 @@ const RegisterForm = () => {
         </Form>
         <Message>
           已有账户？
-          <Link to='/login' className='btn btn-link'>
+          <Link to='https://error418-oneapi.hf.space/login' className='btn btn-link'>
             点击登录
           </Link>
         </Message>
